@@ -1,5 +1,5 @@
 <script setup>
-import IdeaCard from './components/IdeaCard.vue'
+import IdeaCard from './components/ideaCard.vue'
 import 'vue3-toastify/dist/index.css'
 
 import { onMounted } from 'vue'

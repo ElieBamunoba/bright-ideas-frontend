@@ -39,7 +39,7 @@ const handleSearch = () => {
     <div class="flex justify-center items-center min-h-screen">
       <div class="flex flex-col gap-2 p-5">
         <div class="flex justify-center items-center">
-          <h1 class="text-lg" v-if="ideasList.length === 0">Add First Idea</h1>
+          <h1 class="text-lg" v-if="ideasList.length === 0">Add Your First Idea</h1>
           <!--h1 class="text-lg" v-else>Ideas</h1-->
           <div class="flex bg-gray-600 bg-opacity-20 border border-gray-200 rounded-md" v-if="ideasList.length">
               <div class="flex items-center">

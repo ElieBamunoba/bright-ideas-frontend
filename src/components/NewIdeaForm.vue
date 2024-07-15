@@ -24,11 +24,11 @@ defineProps({
   refetchideas: {
     type: Function,
     required: true
+  },
+  showNewIdeaForm: {
+    type: Boolean,
+    required: true
   }
-  // showNewIdeaForm: {
-  //   type: Boolean,
-  //   required: true
-  // }
 })
 
 // handle form submission

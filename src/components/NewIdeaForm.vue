@@ -50,7 +50,7 @@ const handleSubmit = async (e, refetch) => {
       options: optionsInput.value
     }
 
-    const res = await fetch('http://15.207.120.36:8000/api/ideas/', {
+    const res = await fetch('http://13.202.43.99:8000/api/ideas/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
